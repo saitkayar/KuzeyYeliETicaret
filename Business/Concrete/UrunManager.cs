@@ -40,14 +40,19 @@ namespace Business.Concrete
 
         public IDataResult<List<Urun>> GetAll()
         {
-         var resukt=   _urunDal.GetAll().ToList();
+        //    if (DateTime.Now.Hour==16)
+        //    {
+        //        return new SuccessDataResult<List<Urun>>("sistem bakımda");
+
+        //    }
+            var resukt=   _urunDal.GetAll().ToList();
             return new SuccessDataResult<List<Urun>>(resukt); 
         }
 
-        public IDataResult<List<Urun>> GetAllByDetay()
+        public IDataResult<List<UrunDto>> GetAllByDetay()
         {
-          _urunDal.GetUrunDetay();
-            return new SuccessDataResult<List<Urun>>();
+         var result= _urunDal.GetUrunDetay();
+            return new SuccessDataResult<List<UrunDto>>(result);
         }
 
         public IDataResult<List<Urun>> GetAllByKategoriId(int id)
@@ -71,8 +76,8 @@ namespace Business.Concrete
 
         public IDataResult<Urun> GetById(int id)
         {
-            _urunDal.Get(u => u.UrunID == id);
-         return new SuccessDataResult<Urun>();
+          var result=  _urunDal.Get(u => u.UrunID == id);
+         return new SuccessDataResult<Urun>(result);
         }
     }
 }

@@ -15,17 +15,44 @@ namespace WebAPI.Controllers
         {
             _urunService = urunService;
         }
-        [HttpGet]
-        public IActionResult get()
+        [HttpGet("GetAll")]
+        public IActionResult GetAll()
         {
-           var result=  _urunService.GetAll();
-            return Ok(result.Data);
+            var result = _urunService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+   
         }
-        [HttpPost]
-        public IActionResult add(Urun urun)
+        [HttpGet("GetbyId")]
+        public IActionResult GetById(int id)
         {
-             _urunService.Add(urun);
-            return Ok("eklendi");
+            var result = _urunService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
+        [HttpGet("GetbyDetay")]
+        public IActionResult GetByDetay()
+        {
+            var result = _urunService.GetAllByDetay();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
+        [HttpPost("Add")]
+        public IActionResult Add(Urun urun)
+        {
+          var resuly=   _urunService.Add(urun);
+            return Ok(resuly);
         }
     }
 }

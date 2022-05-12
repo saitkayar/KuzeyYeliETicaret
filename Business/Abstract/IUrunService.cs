@@ -16,7 +16,7 @@ namespace Business.Abstract
         IDataResult<List<Urun>> GetAll();
         IDataResult<List<Urun>> GetAllByKategoriId(int id);
         IDataResult<List<Urun>> GetAllByFiyat(decimal min, decimal max);
-        IDataResult<List<Urun>> GetAllByDetay();
+        IDataResult<List<UrunDto>> GetAllByDetay();
       IDataResult<Urun> GetById(int id);
 
         IResult Add(Urun urun);

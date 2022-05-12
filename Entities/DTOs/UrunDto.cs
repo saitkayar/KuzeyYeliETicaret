@@ -13,6 +13,6 @@ namespace Entities.DTOs
         public string UrunAdi { get; set; }
         public short Stok { get; set; }
         public decimal Fiyat { get; set; }
-        public string KAtegoriAdi { get; set; }
+        public string KategoriAdi { get; set; }
     }
 }
