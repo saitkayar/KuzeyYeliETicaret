@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -21,7 +23,7 @@ namespace Business.Concrete
         {
             _urunDal = urunDal;
         }
-
+        [ValidationAspect(typeof(UrunValidator))]
         public IResult Add(Urun urun)
         {
             if (urun.UrunAdi.Length < 2)

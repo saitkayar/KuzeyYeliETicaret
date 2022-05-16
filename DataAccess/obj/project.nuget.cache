@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mX1WHgq83dl3p7iPc6EbMenAoqBJ45oUBnlc26cfEEFgOh+uThMuewOte7JEhltlxNdQ7asBlqX9EFzfyciU7w==",
+  "dgSpecHash": "y4r6B2vNiGf3OtHQllWDOm50RKSM1RV4DX4sbCrug+f2crNmbdlrFdBqooi0NVilam+wScjwt1/XqiM5+0gMNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -33,6 +37,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",

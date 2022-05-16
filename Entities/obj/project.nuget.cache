@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9fbO7x5IGdCI5cRBeKjBmumnrSq1pnCctqP/bhNSlnG06WGX8PHSsoxj6+68erCMkN0dc5Ott8qR5udHF0E9yA==",
+  "dgSpecHash": "ogy4b0BFm0OZdv7wtRi9rxGlB2bUhTiK5Tu1HgXiDNIhHSimfrb6aVDoBcE6kWEKa57nGo4LV8ioPziprLHQYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
@@ -17,6 +21,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

@@ -20,7 +20,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  UrunID = u.UrunID,
                                  Stok = u.Stok,
                                  Fiyat = u.Fiyat,
-                                 KategoriAdi = k.KAtegoriAdi,
+                                 KategoriAdi = k.KategoriAdi,
                                  UrunAdi = u.UrunAdi,
                              };
                 return result.ToList();

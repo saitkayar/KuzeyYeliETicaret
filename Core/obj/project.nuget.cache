@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/H7dWzh4Gz0yPDcJeuAVKzqLuxWYQ2aW1tpYugrPTx/S4AJPcrvzY2aNYNQMxSrJ6AWXU+/kJeWRqx2LmMM2jw==",
+  "dgSpecHash": "rW7xQhEzLSHlJzyG3wx+6+T5/xVBXuyalccCt0R/RrNnmhmGvPsmvphDl4Nf+f9MgtgcNEF2aXaVpootT76UaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
@@ -17,6 +21,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
