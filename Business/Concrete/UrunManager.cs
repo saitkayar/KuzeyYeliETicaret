@@ -2,6 +2,7 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -26,9 +27,11 @@ namespace Business.Concrete
         [ValidationAspect(typeof(UrunValidator))]
         public IResult Add(Urun urun)
         {
-            if (urun.UrunAdi.Length < 2)
+          IResult result=  BusinessRules.Run(CheckUrunName(urun.UrunAdi));
+
+            if (result!=null)
             {
-                return new ErrorResult(Messages.UrunNameInvalıd);
+                return result;
             }
             _urunDal.Add(urun);
             return new SuccessResult(Messages.UrunAdded);
@@ -68,7 +71,7 @@ namespace Business.Concrete
             
             return new SuccessDataResult<List<Urun>>();
         }
-
+        [ValidationAspect(typeof(UrunValidator))]
         public IResult Update(Urun urun)
         {
           
@@ -80,6 +83,16 @@ namespace Business.Concrete
         {
           var result=  _urunDal.Get(u => u.UrunID == id);
          return new SuccessDataResult<Urun>(result);
+        }
+
+        private IResult CheckUrunName(string name)
+        {
+            Urun urun = _urunDal.Get(u => u.UrunAdi == name);
+            if (urun!=null)
+            {
+                return new ErrorResult("bu isimde ürün zaten mevcut");
+            }
+            return new SuccessResult();
         }
     }
 }

@@ -8,6 +8,11 @@ namespace Business.Abstract
     {
       IDataResult<List<Kategori>> GetAll(Expression<Func<Kategori,bool>> filter=null);
       IDataResult<Kategori> Get(Expression<Func<Kategori,bool>> filter);
+
+        IResult Add(Kategori kategori);
+        IResult Delete(Kategori kategori);
+        IResult Update(Kategori kategori);
+
         
     }
 }

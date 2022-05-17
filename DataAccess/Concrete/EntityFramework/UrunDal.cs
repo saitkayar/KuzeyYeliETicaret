@@ -15,6 +15,7 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from u in context.Urunler
                              join k in context.Kategoriler
                              on u.KategoriID equals k.KategoriID
+                             join p in context.Images on u.UrunID equals p.UrunId
                              select new UrunDto
                              {
                                  UrunID = u.UrunID,
@@ -22,6 +23,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  Fiyat = u.Fiyat,
                                  KategoriAdi = k.KategoriAdi,
                                  UrunAdi = u.UrunAdi,
+                                 ImagePath=p.ImagePath
                              };
                 return result.ToList();
             }

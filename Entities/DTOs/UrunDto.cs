@@ -14,5 +14,6 @@ namespace Entities.DTOs
         public short Stok { get; set; }
         public decimal Fiyat { get; set; }
         public string KategoriAdi { get; set; }
+        public string ImagePath { get; set; }
     }
 }
