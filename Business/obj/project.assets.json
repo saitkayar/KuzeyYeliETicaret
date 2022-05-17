@@ -693,6 +693,7 @@
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "Castle.Core": "5.0.0",
           "FluentValidation": "11.0.1",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.EntityFrameworkCore": "6.0.4"
         },
         "compile": {

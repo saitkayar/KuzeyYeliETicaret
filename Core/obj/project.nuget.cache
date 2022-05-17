@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rW7xQhEzLSHlJzyG3wx+6+T5/xVBXuyalccCt0R/RrNnmhmGvPsmvphDl4Nf+f9MgtgcNEF2aXaVpootT76UaA==",
+  "dgSpecHash": "JQhOE6pPslbBLVdg0XLK8OeUnyE8kX11NavIi5tPXuOrl762bRKDcbEajvSqfNhiE7qpCPJ8f0Ao6bbfpi2U2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
@@ -22,6 +23,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

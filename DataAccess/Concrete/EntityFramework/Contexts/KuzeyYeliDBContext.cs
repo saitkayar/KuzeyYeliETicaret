@@ -19,6 +19,6 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         public DbSet<Kategori> Kategoriler { get; set; }
         public DbSet<Musteri> Musteriler { get; set; }
         public DbSet<Satis> Satislar { get; set; }
-        public DbSet<Image> Images { get; set; }
+        public DbSet<UrunImage> Images { get; set; }
     }
 }

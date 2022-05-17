@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DD6KMw042UjdXM9Ds/FEjWyEE003r/5d6uluHgxgENqUr9KMOxSAAeabWO+lgrIAf0XK3LokWAL0+rwKIxMGOw==",
+  "dgSpecHash": "4j7e3ZTQuig5xBR0um3jxBeTEsQ57r28Aooh0wWisYQ29gEeG0qmlY/1fu72HFycKdosyFdB4p87H3/MqMkKrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -15,8 +16,10 @@
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.4\\microsoft.entityframeworkcore.design.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.4\\microsoft.entityframeworkcore.sqlserver.6.0.4.nupkg.sha512",
+    "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.4\\microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\303SAIT_AKSAM\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
