@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F0Na8awDIZFlroqf9cmXX/0utsS2l7BlvskrSj46zkI=",
+  "Hash": "guBKEx2i+a4hx5r/J/4OojSlLrN08bJbBqgDnKDZv3Y=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\WebAPI\\wwwroot\\Images\\dfcc9a33-058d-4688-bc8c-de43ad9261cf.png",
+      "Identity": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\WebAPI\\wwwroot\\Images\\06e8312c-b714-4ccd-8d8a-44bc27761c6f.png",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\303SAIT_AKSAM\\Desktop\\KuzeyYeliETicaret\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "Images/dfcc9a33-058d-4688-bc8c-de43ad9261cf.png",
+      "RelativePath": "Images/06e8312c-b714-4ccd-8d8a-44bc27761c6f.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\dfcc9a33-058d-4688-bc8c-de43ad9261cf.png"
+      "OriginalItemSpec": "wwwroot\\Images\\06e8312c-b714-4ccd-8d8a-44bc27761c6f.png"
     }
   ]
 }
