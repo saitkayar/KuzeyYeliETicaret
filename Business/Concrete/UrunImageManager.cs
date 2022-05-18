@@ -46,7 +46,7 @@ namespace Business.Concrete
                 return new ErrorResult("Image not found");
             }
             _fileHelper.Delete(result.ImagePath);
-            _urunImageDal.Delete(image);
+            _urunImageDal.Delete(image  );
             return new SuccessResult("Image was deleted succesfully");
 
         }

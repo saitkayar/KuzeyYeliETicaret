@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -24,6 +25,8 @@ namespace Business.Concrete
         {
             _urunDal = urunDal;
         }
+
+        [SecuredOperation("admin")]
         [ValidationAspect(typeof(UrunValidator))]
         public IResult Add(Urun urun)
         {
