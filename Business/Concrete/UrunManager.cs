@@ -99,5 +99,10 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+
+        public IResult AddTransactionalTest(Urun urun)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
