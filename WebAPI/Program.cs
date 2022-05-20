@@ -3,6 +3,8 @@ using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
 using Business.DependecyResolver.Autofac;
+using Core.DependecyResolvers;
+using Core.Extension;
 using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
@@ -38,9 +40,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         };
     }
     );
-ServiceTool.Create(builder.Services);
 
 
+builder.Services.AddDependencyResolvers(new ICoreModule[] {new CoreModule()});
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).ConfigureContainer<ContainerBuilder>(builder =>
 {
    builder.RegisterModule(new AutofacBusinessModule());
