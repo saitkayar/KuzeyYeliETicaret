@@ -22,6 +22,7 @@ namespace Business.Abstract
         IResult Add(Urun urun);
         IResult Delete(Urun urun);
         IResult Update(Urun urun);
+        IResult AddTransactionalTest(Urun urun);
 
     }
 }

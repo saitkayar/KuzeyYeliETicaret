@@ -3,6 +3,7 @@ using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Aspects.Caching;
 using Core.Utilities.Business;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
@@ -28,6 +29,7 @@ namespace Business.Concrete
 
         [SecuredOperation("admin")]
         [ValidationAspect(typeof(UrunValidator))]
+        [CacheRemoveAspect("IUrunService.Get")]
         public IResult Add(Urun urun)
         {
           IResult result=  BusinessRules.Run(CheckUrunName(urun.UrunAdi));
@@ -45,7 +47,7 @@ namespace Business.Concrete
             _urunDal.Delete(urun);
             return new SuccessResult();
         }
-
+        [CacheAspect]
         public IDataResult<List<Urun>> GetAll()
         {
         //    if (DateTime.Now.Hour==16)
@@ -81,7 +83,7 @@ namespace Business.Concrete
             _urunDal.Update(urun);
             return new SuccessResult("Urun güncellendi");
         }
-
+        [CacheAspect]
         public IDataResult<Urun> GetById(int id)
         {
           var result=  _urunDal.Get(u => u.UrunID == id);
